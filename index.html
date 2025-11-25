@@ -1,11 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mk's Space</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Mohanakumar - Portfolio</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Montserrat:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    Hello!!
+    <div class="frame">
+        <header class="topbar">
+            <div class="brand">Mᴋ</div>
+
+            <nav class="nav">
+                <ul id="navList" class="nav-list">
+                    <li><a class="nav-link" href="#home">Home</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li><a class="nav-link" href="#projects">Projects</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+
+            </nav>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Open navigation">
+                <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true">
+                    <rect width="22" height="2" rx="1"></rect>
+                    <rect y="7" width="22" height="2" rx="1"></rect>
+                    <rect y="14" width="22" height="2" rx="1"></rect>
+                </svg>
+            </button>
+        </header>
+
+        <main id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hello">Hello</span>
+                    <div class="name-row">
+                        <span class="im">I'm</span>
+                        <span class="name">Mohanakumar K</span>
+                    </div>
+                    <p class="sub-title">Python Developer & Aspiring Machine Learning Engineer</p>
+                </h1>
+                <p class="tagline">
+                    B.Tech Artificial Intelligence student specializing in Python development and Machine Learning. I am
+                    actively engaged in building competencies across core AI technologies.
+                </p>
+            </div>
+
+            <div class="hero-overlay"></div>
+
+        </main>
+
+
+    </div>
+
+    <section id="about" class="hero"></section>
+    <section id="portfolio" class="hero"></section>
+    <section id="projects" class="hero"></section>
+    <section id="contact" class="hero"></section>
+
+
+    <script src="script.js"></script>
 </body>
+
+
 </html>
